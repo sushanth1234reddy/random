@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day19-Media Queries</title>
+    <style>
+        p{
+            background-color: orange;
+            height: 700px;
+            width: 250px;
+            position: relative;
+            
+        }
+        @media screen and (orientation:landscape){
+            /*when width is more than height then landscape is applied*/
+            p{
+                background-color: blue;
+                height: 400px;
+                width: 700px;
+            }
+
+        }
+        /* @media screen and (max-width:200px)
+        {
+            img{
+                height: 100px;
+                width: 100px;
+                border: 2px solid orange;
+                
+            }
+        }
+        @media  screen and (min-width:200px) and (max-width:500px) {
+            img{
+                height: 250px;
+                width: 250px;
+                border: 5px solid blue;
+
+            }
+            
+        }
+        @media screen and (min-width:500px) {
+            img{
+                height: 450px;
+                width: 480px;
+                border: 10px dotted red;
+            }
+            
+        } */
+    </style>
+</head>
+<body>
+   <p>hello</p>
+</body>
+</html>
