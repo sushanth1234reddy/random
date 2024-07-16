@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            display: flex;
+            height: 200px;
+            width: 200px;
+            border: 2px solid blue;
+            flex-direction: row;
+            gap: 10px 20px;
+            flex-wrap: wrap;
+            justify-content: space-evenly ;
+            align-content: space-evenly;
+            
+        }
+        [class*="it"]{
+            background-color: blue;
+            height: 50px;
+            width: 50px;
+        }
+        .it1{
+            position: relative;
+        }
+        img{
+            position: absolute;
+            left: 1px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+       <div class="it1">item1
+        <img src="aotpic1.jpeg" height="10px"  alt="">
+       </div>
+       <div class="it2">item2</div>
+       <div class="it3">item3</div>
+       <div class="it4">item4</div>
+       <div class="it5">item5</div>
+       <div class="it6">item6</div>
+    </div>
+</body>
+</html>
