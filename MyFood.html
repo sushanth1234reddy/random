@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food</title>
+    <style>
+        .header{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto;
+            justify-content: space-between;
+            width: 100%;
+            height: 50px;
+            align-items: center;
+            background-color: white;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+            
+        }
+        .title,.Mail{
+            font-family: Arial, Helvetica, sans-serif;
+            transition: all 0.5s;
+            font-size: 20px;
+            padding: 5px;
+            border-radius: 10px;
+
+        }
+        .title:hover{
+            background-color: black;
+            
+            color: white;
+            transform: scale(1.5);
+            transition: all 0.5sec;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .Mail:hover{
+            background-color: black;
+            
+            color: white;
+            transform: scale(1.5);
+            transition: all 0.5sec;
+        }
+        .burgerq:hover{
+            
+            transform: scale(1.5);
+            transition: all 0.5sec;
+        }
+        [class*="ppic"]{
+            height: 400px;
+            width: 300px;
+            border-radius: 10px;
+        }
+        .itemlist{
+            margin-top: 50px;
+            display: grid;
+            
+            grid-template-columns: 300px 300px 300px 300px;
+            grid-template-rows: 400px 200px 400px 200px ;
+            justify-content: space-evenly;
+            
+          
+        
+            
+        }
+        h3{
+            /* font-family: "Karma", sans-serif; */
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+        }
+        [class*="navv"]{
+            background-color: rgb(252, 248, 248);
+            height: 20px;
+            width: 20px;
+            background-color: rgb(220, 220, 138);
+            border-radius: 20%;
+        }
+       .navbutton{
+        display: flex;
+        column-gap: 1px;
+        justify-content: center;
+        text-align: center;
+        
+       }
+       [class*="navv"]:hover{
+        background-color: black;
+        color: white;
+       }
+      [class*="ppic"]:hover{
+        transform: scale(1.1);
+        transition: all 0.5s;
+
+      }
+      
+      
+      .foodman{
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      /* .aboutfood{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+      } */
+     [class*="part"]
+     {
+        background-color: rgb(208, 208, 29);
+     }
+     .footer{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 250px;
+        gap: 20px;
+     }
+    </style>
+</head>
+<body>
+    <div class="mann">
+        <div class="header">
+           <div class="burger"><img class="burgerq" src="menulines.png" height="25" width="25" alt=""></div>
+           <div class="title" >My Food</div>
+           <div class="Mail">Mail</div>
+        </div>
+        <div class="itemlist">
+            <div class="idd1"><img class="ppic1" src="pic1.jpg" alt=""></div>
+            <div class="idd2"><img class="ppic2" src="pic2.jpg" alt=""></div>
+            <div class="idd3"><img class="ppic3" src="pic3.jpg" alt=""></div>
+            <div class="idd4"><img class="ppic4" src="pic4.jpg" alt=""></div>
+            <div class="textup1">
+                <h3>  The Perfect 
+                    Sandwhich, A <br> <span>&#160 &#160 &#160 &#160</span>  Real
+                     NYC Classic
+                </h3>
+                <span>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</span>
+            </div>
+            <div class="textup2"> <h3> Let Me Tell You <br>  About This Steak
+                </h3>
+                <span>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</span></div>
+            <div class="textup3"> <h3>Cherries, interrupted
+                </h3>
+                <span>Lorem ipsum text praesent tincidunt ipsum lipsum. <br>
+
+What else?</span></div>
+            <div class="textup4"> <h3>  Once Again, Robust Wine and  Vegetable Pasta
+                </h3>
+                <span>Lorem ipsum text praesent tincidunt ipsum lipsum.</span></div>
+            <div class="idd5"><img class="ppic5" src="pic5.jpg" alt=""></div>
+            <div class="idd6"><img class="ppic6" src="pic6.jpg" alt=""></div>
+            <div class="idd7"><img class="ppic7" src="pic7.jpg" alt=""></div>
+            <div class="idd8"><img class="ppic8" src="pic8.jpg" alt=""></div>
+            <div class="textdown1"> <h3>  All I Need Is a Popsicle
+                </h3>
+                <span>Lorem ipsum text praesent tincidunt ipsum lipsum.</span></div>
+            <div class="textdown2"> <h3> Salmon For Your Skin
+                </h3>
+                <span>JOnce again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</span></div>
+            <div class="textdown3"> <h3> The Perfect Sandwich, A Real Classic
+                </h3>
+                <span>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</span></div>
+            <div class="textdown4"> <h3>Le French
+                </h3>
+                <span>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</span></div>
+
+        </div>
+        <div class="bottom">
+            <div class="navbutton">
+                <span class="navv1"> &#x290C;</span>
+                <span class="navv2"> 1</span>
+                <span class="navv3"> 2</span>
+                <span class="navv4"> 3</span>
+                <span class="navv5"> 4</span>
+                <span class="navv6"> &#x290D;</span>
+
+
+            </div>
+            <br>
+            <br>
+            <div class="foodman">
+                <div class="aboutman"><h3 style="font-size: 25px;">About Me, The Food Man</h3></div>
+                <div class="manpic"><img class="manpicchef" src="person.jpg" style="border-radius: 5px;" alt=""></div>
+                <div><h4>I am Who I Am!</h4></div>
+                <div><i>With Passion For Real, Good Food</i></div>
+                <div>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world <br> <span>&#160</span> with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus <br> <span>&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160&#160</span> ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</div>
+            </div>
+            <br>
+            <br>
+            <div class="footer">
+                <div class="part1">1</div>
+                <div class="part2">2</div>
+                <div class="part3">3</div>
+
+            </div>
+          
+
+        </div>
+    </div>
+</body>
+</html>
